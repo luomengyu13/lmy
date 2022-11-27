@@ -1,0 +1,124 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.bc {
+    width: 600px;
+    height: 1060px;
+    background-image:url(images/bc.png), url(images/Background.png);
+    background-repeat: repeat, no-repeat;
+    margin:100px auto;
+    filter: opacity(90%);
+    font-family: [lato];
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    height: 110px;
+}
+.circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: transparent;
+    
+}
+.circle1 {
+    margin-left: 20px;
+    border: 5px solid;
+    border-color:#8ec8d0
+}
+.circle2 {
+    margin-right: 20px;
+}
+.title {
+    color: #cfe8eb;
+    font-size: 32px;
+}
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: 5px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    top: 66px;
+}
+.a {
+    font-size: 100px;
+    font-family: [lato];
+    color: #c0dbe3;
+    text-align: center;
+    font-weight: 200;
+    position: relative;
+    top: -10px;
+}
+.text {
+    font-size: 20px;
+    font-family: [lato];
+    color: #c0dbe3;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 328px;
+    position: relative;
+    top: 102px;
+}
+input {
+    
+    background-color: transparent;
+    border: 0;
+    width: 448px;
+    height: 77px;
+    font-size: 26px;
+    border-bottom: 2px solid #9391bf;
+}
+input::-webkit-input-placeholder{
+    color: #fff;
+}
+.last {
+    width: 448px;
+}
+.last button {
+    background-color: transparent;
+    border-style: none;
+    color: #3cffb5;
+    font-size: 23px;
+    float: right;
+    position: relative;
+    top: -50px
+}
+.sign_up {
+    width: 440px;
+    height: 78px;
+    border-radius: 40px;
+    position: relative;
+    top: 130px;
+    left: 82px;
+    font-size: 33px;
+    color: #706d9f;
+    font-weight: 600;
+}
+.sign_in {
+    position: relative;
+    top: 152px;
+    float: left;
+    left: 150px;
+    font-size: 23px;
+    color: #fff;
+}
+.sign_in a {
+    color: #3cffb5;
+    text-decoration:none;
+}

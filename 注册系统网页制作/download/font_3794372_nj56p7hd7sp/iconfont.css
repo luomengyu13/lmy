@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3794372 */
+  src: url('./iconfont.woff2') format('woff2'),
+       url('./iconfont.woff') format('woff'),
+       url('./iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  color: #8ec8d0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#back{
+  font-size: 37px;
+
+}
+
+.icon-jiantou_qiehuanzuo:before {
+  content: "\eb06";
+}
+
+.icon-jinggao:before {
+  content: "\e603";
+}
+
